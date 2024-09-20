@@ -10,9 +10,9 @@ function WeatherDisplay(props) {
   return (
     <div>
         <p>Temperature: <span style={tempStyle}>{data.temperature}</span></p>
-        <p>conditions:{data.conditions}</p>
+        <p>conditions: {data.conditions}</p>
     </div>
   );
-}
+};
 
-export default WeatherDisplay
+export default WeatherDisplay;
